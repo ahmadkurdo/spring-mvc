@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Start Page</title>
 </head>
 <body>
-<h1>Hello World!</h1>
+<h1 th:text="${user}">Hello World!</h1>
+<h1 th:text="${welcomeMessage}">Hello World!</h1>
+
+
 
 </body>
 </html>

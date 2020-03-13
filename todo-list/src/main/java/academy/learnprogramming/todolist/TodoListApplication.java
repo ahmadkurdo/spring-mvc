@@ -12,6 +12,9 @@ to the model now that model is exposed o the view which means that we can
 access the attributes in our html
 
 
+
+
+
  */
 
 @SpringBootApplication
