@@ -45,7 +45,7 @@ public class IndexController {
     // == Model Attributes ==
     @ModelAttribute("welcomeMessage")
     public String welcomeMessage(){
-        return demoService.getWelcomeMessage();
+        return demoService.getWelcomeMessage( );
 
     }
 

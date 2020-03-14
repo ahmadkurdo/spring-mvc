@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo Items</title>
+</head>
+<body>
+    <div align="center">
+        <table border = "1", cellpadding="5">
+            <caption><h2>Todo Items</h2></caption>
+            <tr>
+                <th>Title</th>
+                <th>Deadline</th>
+            </tr>
+            <tr th:each="item : ${toDoData.items}">
+                <td th:text="${item.getTitle()}">Title</td>
+                <td th:text="${item.getDeadLine()}">Title</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -14,7 +14,7 @@ public class ToDoData {
 
     //== fields ==
     private static int idValue = 1;
-    private final List<ToDoItem> items = new ArrayList<>();
+    public final List<ToDoItem> items = new ArrayList<>();
 
     //== constructor ==
     public ToDoData() {
