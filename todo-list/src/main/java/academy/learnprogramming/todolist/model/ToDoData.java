@@ -22,14 +22,13 @@ public class ToDoData {
         addItem(new ToDoItem("First","First Detials", LocalDate.now()));
         addItem(new ToDoItem("Second","Second Detials", LocalDate.now()));
         addItem(new ToDoItem("Third","Third Detials", LocalDate.now()));
-
+        addItem(new ToDoItem("Fourth","Fourth Detials", LocalDate.now()));
     }
 
     //== public methods ==
     public List<ToDoItem> getItem() {
         return Collections.unmodifiableList(items);
     }
-
 
     public void addItem(@NonNull ToDoItem toAdd){
         items.add(toAdd);
